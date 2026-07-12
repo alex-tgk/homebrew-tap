@@ -1,18 +1,18 @@
-# Alex-tgk Tap
+# alex-tgk Homebrew tap
 
-## How do I install these formulae?
+Homebrew Formulae for projects maintained by [Alex Carroll](https://github.com/alex-tgk).
 
-`brew install alex-tgk/tap/<formula>`
+## Install Cairn
 
-Or `brew tap alex-tgk/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "alex-tgk/tap"
-brew "<formula>"
+```sh
+brew install alex-tgk/tap/cairn
 ```
 
-## Documentation
+Verify the installation:
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```sh
+cairn --version
+cairn doctor --json
+```
+
+The Formula builds tagged Cairn source with Bun as a build-only dependency. Published bottles will allow installation without Bun on the user's machine.
