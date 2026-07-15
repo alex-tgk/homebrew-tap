@@ -8,6 +8,7 @@ class Cairn < Formula
   depends_on "bun" => :build
 
   def install
+    system "bun", "install", "--frozen-lockfile"
     system "bun", "run", "./scripts/build.ts"
     bin.install "dist/cairn"
   end
