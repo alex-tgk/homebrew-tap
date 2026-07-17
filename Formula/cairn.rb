@@ -1,8 +1,8 @@
 class Cairn < Formula
   desc "Local-first work, memory, and context for AI coding agents"
   homepage "https://github.com/alex-tgk/cairn"
-  url "https://github.com/alex-tgk/cairn/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "d2f4fa9d7dd6f6646f9ec43ccc84f0dad72245b0ca8c3a43879ec95ef9e63d63"
+  url "https://github.com/alex-tgk/cairn/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "782f0acd7d478783c237e71356d63f027c598acea1890268be8f938ca723452d"
   license "MIT"
 
   depends_on "bun" => :build
